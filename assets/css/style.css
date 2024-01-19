@@ -41,12 +41,22 @@ body {
 }
 
 p {
-    font-size: 8vw;
+    font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
   }
   
+  @media (min-width: 900px){
+ 
+    p {
+        font-size: 6rem;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1;
+      }
+     
+    }
   .fancy {
     margin-bottom: 20vh;
     position: relative;
