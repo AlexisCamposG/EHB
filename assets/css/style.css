@@ -22,7 +22,9 @@ body {
 
 .rotating-photo {
     width: 12em;
-   
+  
+        cursor: pointer;
+  
     
 }
 .non-rotating-text {
@@ -218,3 +220,11 @@ p {
     }
     
 }
+.custom-loader {
+    animation: none;
+    border-width: 0;
+  }
+  .swal2-timer-progress-bar {
+    background-color: black
+  }
+  
