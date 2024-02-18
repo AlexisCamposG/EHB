@@ -31,7 +31,7 @@ imagen.addEventListener("click", () => {
         // Crear modal con SweetAlert2
         Swal.fire({
             title: '💖💖Happy Valentine💖💖',
-            html: `<video  width="400" video src="/assets/img/106751.mp4" autoplay></video>`,
+            html: `<video  width="100%" video src="/assets/img/106751.mp4" autoplay></video>`,
             width: 'auto',
             color: "#716add",
             background: `
